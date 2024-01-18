@@ -1,0 +1,111 @@
+################################# Banner ##################################
+banner:
+  bg_image: "images/backgrounds/banner.jpg"
+  title : "Unleash Your Adventure"
+  content : "Costa Rica Canyoning Tours – Dive into Nature's Thrilling Playground!"
+            
+  # button primary
+  button_solid:
+    enable : true
+    label : "Upcoming Tour Dates"
+    link : "tour_dates"
+
+  # button outline
+  button_outline:
+    enable : false
+    label : "Contact Us"
+    link : "contact"
+
+##################### call to action ########################################
+cta:
+  enable : true
+  title : "Let's go canyoning!"
+  button:
+    enable : true
+    label : "Book your tour!"
+    link : "contact"
+
+################################## about ####################################
+about:
+  enable: true
+  image : "images/landing/landing-1.jpg"
+  # content supports markdown, make sure to give enough space, otherwise markdown will not work properly
+  content : "
+
+  ## Canyoning in Costa Rica: The Ultimate Adventure in Untouched Nature
+
+  Embark on the ultimate adventure in Costa Rica by delving into the heart of nature through the exhilarating experience of canyoning. This captivating journey goes beyond the ordinary, inviting you to discover the untamed beauty of Costa Rica in a way that truly redefines the meaning of adventure.
+
+  
+  Canyoning in Costa Rica is not merely a physical endeavor; it's a spiritual connection with the awe-inspiring landscapes that Mother Nature has sculpted over millennia. As you descend through lush canyons, surrounded by cascading waterfalls and vibrant flora, you'll feel a profound sense of harmony with the environment. The rush of adrenaline is met with the soothing sounds of rushing water, creating a symphony of sensations that resonates deep within your soul.
+
+  
+  Costa Rica, known for its rich biodiversity, offers canyoning enthusiasts a unique opportunity to navigate through diverse ecosystems. The challenge of rappelling down waterfalls, swimming through crystal-clear pools, and navigating natural rock formations becomes a metaphor for overcoming obstacles in life. Each step down the canyon is a testament to your courage, resilience, and the sheer joy of embracing the unknown.
+
+  
+  Beyond the physical feats, canyoning in Costa Rica unveils a tapestry of experiences that celebrate the spirit of exploration. It's about conquering fears, fostering camaraderie with fellow adventurers, and forging memories that will linger as vivid reminders of your capabilities and the boundless wonders of the natural world.
+
+  
+  The landscapes of Costa Rica, with their dramatic canyons and lush rainforests, serve as both playground and sanctuary. The juxtaposition of adrenaline-pumping descents and moments of quiet reflection amidst the untouched beauty allows you to appreciate the delicate balance of adventure and serenity.
+
+  
+  In the heart of these canyons, you'll not only find the rush of adventure but also a profound connection with the essence of life itself. Costa Rican canyoning beckons you to step outside your comfort zone, embrace the unknown, and unlock a sense of fulfillment that only the raw beauty of nature can provide. So, let the canyons of Costa Rica be your canvas of courage, and may your journey through them be the masterpiece of a lifetime.
+  "
+  button:
+    enable : true
+    label : "know more"
+    link : "about"
+
+################################# testimonial ################################
+testimonial:
+  enable : true
+  title : "What People Say?"
+  testimonial_item:
+    # testimonial item loop
+    - name : "John Doe"
+      image : "images/testimonial/client-1.jpg" # image size 100px * 100px
+      designation : "USA"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis voluptate modi sunt placeat in vel
+              illo dolorem, atque maxime voluptates optio fugit iure cum ipsa quo quaerat"
+              
+    # testimonial item loop
+    - name : "Jinat Rin"
+      image : "images/testimonial/client-2.jpg" # image size 100px * 100px
+      designation : "Germany"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis voluptate modi sunt placeat in vel
+              illo dolorem, atque maxime voluptates optio fugit iure cum ipsa quo quaerat! Veritatis, modi. Laudantium
+              provident deleniti earum voluptas delectus, labore dolor dolorem amet expedita."
+              
+    # testimonial item loop
+    - name : "Mark Din"
+      image : "images/testimonial/client-3.jpg" # image size 100px * 100px
+      designation : "Spain"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis voluptate modi sunt placeat in vel
+              illo dolorem, atque maxime voluptates optio fugit iure cum ipsa quo quaerat! Veritatis, modi."
+
+
+################################# Service #####################################
+service:
+  enable : true
+  title : "Our Services"
+  service_item:
+    # Service item loop
+    - title : "Guided Canyon Tours"
+      icon : "ti-direction-alt" # here we use themefy icon pack : https://themify.me/themify-icons
+      content : "Embark on the ultimate Costa Rican adventure with Jungle Canyons, where our canyoning tours redefine the essence of exploration. Immerse yourself in the heart of untamed nature, navigating lush canyons and cascading waterfalls for an unparalleled sensory journey. With Jungle Canyons, discover the true spirit of Costa Rica as you witness its breathtaking landscapes in the most exhilarating and unforgettable way."
+      
+    # Service item loop
+    - title : "Canyoning Training and Education"
+      icon : "ti-medall" # here we use themefy icon pack : https://themify.me/themify-icons
+      content : "Explore the pinnacle of canyoning expertise with our courses at Jungle Canyons, where over 30 years of seasoned guidance, search and rescue proficiency, and mountaineering mastery converge. Benefit from our comprehensive knowledge as we seamlessly blend thrill with safety, ensuring an unparalleled learning experience. Our legacy of expertise guarantees that every descent is not just an adventure, but a journey crafted with the utmost precision and care."
+      
+    # Service item loop
+    - title : "Canyon Expeditions"
+      icon : "ti-cup" # here we use themefy icon pack : https://themify.me/themify-icons
+      content : "Embark on the ultimate canyoning challenge with Jungle Canyons, where our expeditions push the boundaries of adventure for the most daring thrill-seekers. Designed for the truly adventurous soul, our canyoning expeditions blend adrenaline-pumping descents, technical challenges, and awe-inspiring natural beauty. Unleash your inner explorer and conquer the ultimate canyoning challenge with Jungle Canyons for an adventure that transcends limits"
+      
+
+######################### Clients logo slider ################################
+clients_logo:
+  enable : true
+  # logo comes from "config.toml" file

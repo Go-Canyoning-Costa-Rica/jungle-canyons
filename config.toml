@@ -1,0 +1,191 @@
+######################## default configuration ####################
+baseURL = "https://junglecanyons.com/"
+title = "Jungle Canyons"
+theme = "redlab-hugo"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
+# disable language
+disableLanguages = [] # disable language from here
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/match-height/jquery.matchHeight-min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific.popup.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+
+############################## navigation ###############################
+# main menu
+[[menu.main]]
+name = "About"
+URL = "about"
+weight = 1
+
+[[menu.main]]
+name = "Our Routes"
+URL = "routes"
+weight = 2
+
+[[menu.main]]
+name = "Tour Dates"
+URL = "tour_dates"
+weight = 3
+
+#[[menu.main]]
+#weight = 4
+#name = "Pages"
+#hasChildren = true
+#
+#  [[menu.main]]
+#  parent = "Pages"
+#  name = "Career"
+#  URL = "career"
+#
+#  [[menu.main]]
+#  parent = "Pages"
+#  name = "Blog"
+#  URL = "blog"
+  
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 4
+
+# footer menu
+#[[menu.footer]]
+#name = "Latest News"
+#URL = "blog"
+#weight = 1
+
+[[menu.footer]]
+name = "About US"
+URL = "about"
+weight = 2
+
+[[menu.footer]]
+name = "Our Service"
+URL = "service"
+weight = 3
+
+[[menu.footer]]
+name = "Privacy Policy"
+URL = "blog"
+weight = 4
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+home = "Home"
+# Meta data
+description = "Jungle Canyons stands as the unparalleled choice for canyoning enthusiasts, boasting over 30 years of unwavering dedication to providing the ultimate adventure experience in Costa Rica. With a legacy deeply rooted in expertise, safety, and a genuine passion for exploration, our seasoned team ensures that every descent into the lush canyons is a seamless blend of adrenaline-pumping excitement and secure, unforgettable moments. Our extensive experience allows us to navigate the intricate landscapes of Costa Rica's canyons with precision, unveiling hidden wonders and delivering an unparalleled level of professionalism. Choose Jungle Canyons for a journey beyond the ordinary, where decades of knowledge converge to create an adventure that transcends expectations and captures the essence of Costa Rica's breathtaking wilderness."
+author = "Subvertic Lab"
+# contact info
+address = "San José, Costa Rica"
+mobile = "+506 "
+email = "info@junglecanyons.com"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# Google Analitycs
+google_analitycs_id = "" # your id
+# search
+search = true
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format.
+
+
+# google map
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+
+
+###################### Clients logo slider ###############################
+[[params.clients_logo]]
+logo = "images/brands/bluewater.png"
+
+[[params.clients_logo]]
+logo = "images/brands/RockExotica.png"
+
+[[params.clients_logo]]
+logo = "images/brands/Logo_petzl.png"
+
+
+############################# social icon #################################
+[[params.social]]
+icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+# footer content
+footer_content = "Small description here"
+
+################################### Spanish language #####################################
+[Languages.es]
+languageName = "Es"
+languageCode = "es-es"
+contentDir = "content/spanish"
+weight = 2
+home = "Inicio"
+# footer content
+footer_content = "Descripción breve sobre Jungle Canyons."

@@ -1,0 +1,5 @@
+
+######################### Clients logo slider ################################
+clients_logo:
+  enable : true
+  # logo comes from "config.toml" file
