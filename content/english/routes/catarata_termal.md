@@ -21,7 +21,7 @@ type: "routes"
 
 ---
 
-We invite you to explore this incredible canyon, where we can descend several waterfalls and enjoy thermal waters during the rappel down the final rappel.
+We invite you to explore this incredible canyon, where we can descend several waterfalls and enjoy thermal waters during the final rappel.
 
 During this journey, you'll have the opportunity to rappel down three waterfalls, with the highest one measuring 50 meters.
 
