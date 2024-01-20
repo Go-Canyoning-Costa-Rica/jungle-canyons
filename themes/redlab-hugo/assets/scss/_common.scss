@@ -382,3 +382,12 @@ textarea.form-control {
   background-color: $primary-color;
   box-shadow: 0 10px 20px rgba($primary-color,.1) !important;
 }
+
+.route {
+  padding: 1rem;
+}
+
+.card {
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  flex: 0 0 100%;
+}
